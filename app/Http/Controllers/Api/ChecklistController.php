@@ -103,7 +103,7 @@ class ChecklistController extends Controller
         if ($model) {
             return response()->json([
                 'status' => 'success',
-                'message' => 'Data berhasil dihapus',
+                'message' => 'Data berhasil ditemukan',
                 'data' => $model
             ]);
         } else {
